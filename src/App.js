@@ -1,14 +1,20 @@
-//import logo from './logo.svg';
-//import './App.css';
+import "./App.css";
+import EntriesSection from "./Components/EntriesSection";
+import EntryForm from "./Components/EntryForm";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 
-/* function App() {
+function App() {
   return (
-    <div className="App">
-      <header/>
-        <main/>
-        <footer/>
+    <div className="app">
+      <Header />
+      <main className="app__main">
+        <EntryForm />
+        <EntriesSection />
+      </main>
+      <Footer />
     </div>
   );
 }
 
-export default App; */
+export default App;
